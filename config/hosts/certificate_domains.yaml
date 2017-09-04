@@ -1,0 +1,19 @@
+default:
+  server_name: centeias.net
+  service_port: 3000
+
+rocketchat:
+  server_name: rc.centeias.net
+  service_port: 3000
+
+guardianes_api:
+  server_name: guardianes.centeias.net
+  service_port: 80
+
+guardianes_dashboard:
+  server_name: guardianesdata.centeias.net
+  service_port: 3000
+
+opennebula:
+  server_name: opennebula.lappis.rocks
+  service_port: 9869

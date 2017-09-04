@@ -1,0 +1,3 @@
+nginx:
+  run_list:
+    - role[nginx_server]
