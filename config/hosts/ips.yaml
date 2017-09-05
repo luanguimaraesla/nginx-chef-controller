@@ -1,5 +1,4 @@
-default: 10.0.0.100
-rocketchat: 10.0.0.106
+default: 10.0.0.104
 guardianes_api: 10.0.0.104
 guardianes_dashboard: 10.0.0.104
-opennebula: 10.0.0.4
+nginx: 10.0.0.103

@@ -1,5 +1,5 @@
 require 'yaml'
-hosts_config_dir = "lappis"
+hosts_config_dir = "hosts"
 
 ssh_config_file = "config/#{hosts_config_dir}/ssh_config"
 ips_file = "config/#{hosts_config_dir}/ips.yaml"

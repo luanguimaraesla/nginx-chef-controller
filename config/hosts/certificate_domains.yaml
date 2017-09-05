@@ -1,19 +1,11 @@
 default:
-  server_name: centeias.net
-  service_port: 3000
-
-rocketchat:
-  server_name: rc.centeias.net
-  service_port: 3000
+  server_name: luanguimaraes.me
+  service_port: 80
 
 guardianes_api:
-  server_name: guardianes.centeias.net
+  server_name: guardianes.luanguimaraes.me
   service_port: 80
 
 guardianes_dashboard:
-  server_name: guardianesdata.centeias.net
-  service_port: 3000
-
-opennebula:
-  server_name: opennebula.lappis.rocks
-  service_port: 9869
+  server_name: guardianesdata.luanguimaraes.me
+  service_port: 8080
