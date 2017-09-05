@@ -1,4 +1,4 @@
-default: 10.0.0.104
-guardianes_api: 10.0.0.104
-guardianes_dashboard: 10.0.0.104
+default: 10.0.0.105
+guardianes_api: 10.0.0.105
+guardianes_dashboard: 10.0.0.105
 nginx: 10.0.0.103
