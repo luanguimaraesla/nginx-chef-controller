@@ -1,3 +1,3 @@
-Host nginx
-  Hostname 10.0.0.103
-  User centeias
+Host sapiens
+  Hostname 192.168.25.18
+  User luan

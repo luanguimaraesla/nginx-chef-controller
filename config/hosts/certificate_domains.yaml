@@ -1,11 +1,7 @@
 default:
-  server_name: luanguimaraes.me
+  server_name: sapiens.myddns.net
   service_port: 80
 
-guardianes_api:
-  server_name: guardianes.luanguimaraes.me
-  service_port: 80
-
-guardianes_dashboard:
-  server_name: guardianesdata.luanguimaraes.me
+rancher:
+  server_name: rancher.sapiens.myddns.me
   service_port: 8080

@@ -1,4 +1,3 @@
-default: 10.0.0.105
-guardianes_api: 10.0.0.105
-guardianes_dashboard: 10.0.0.105
-nginx: 10.0.0.103
+default: 192.168.25.18 
+sapiens: 192.168.25.18
+rancher: 192.168.25.18 
