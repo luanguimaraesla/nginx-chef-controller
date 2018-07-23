@@ -98,6 +98,7 @@ ruby_block 'Check current cert domains' do
       execute_letsencrypt_crt_generator crt_domains_arg
       update_crt_domains_tracker
 
+##     Fix for letsencrypt old versions, uncomment if necessary
 #      newest_crt_dir = get_newest_crt_directory
 #      update_current_crt_dir(newest_crt_dir, default_domain)
     end
@@ -118,4 +119,5 @@ template '/etc/nginx/nginx.conf' do
   mode '0644'
 end
 
-#include_recipe 'letsencrypt::nginx_default_server'
+# Comment this line if you does not want the default domain
+include_recipe 'letsencrypt::nginx_default_server'

@@ -1,3 +1,7 @@
-Host ej
+Host default
   Hostname 165.227.71.31
+  User root
+
+Host subdomain
+  Hostname 192.168.25.18
   User root

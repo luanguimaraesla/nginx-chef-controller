@@ -1,7 +1,7 @@
 default:
-  server_name: icd.ejplatform.org
+  server_name: exemplo.org
   service_port: 80
 
-backend:
-  server_name: icd.ejplatform.org
+subdomain:
+  server_name: subdomain.exemplo.org
   service_port: 8080

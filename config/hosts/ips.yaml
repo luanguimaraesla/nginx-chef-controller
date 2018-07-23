@@ -1,3 +1,2 @@
 default: 165.227.71.31
-backend: 192.168.25.18
-ej: localhost
+subdomain: 192.168.25.18
