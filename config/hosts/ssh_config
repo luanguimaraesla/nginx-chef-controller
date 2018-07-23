@@ -5,3 +5,7 @@ Host default
 Host subdomain
   Hostname 192.168.25.18
   User root
+
+Host nginx
+  Hostname 192.10.10.10
+  User root
