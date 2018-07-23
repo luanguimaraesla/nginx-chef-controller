@@ -118,4 +118,4 @@ template '/etc/nginx/nginx.conf' do
   mode '0644'
 end
 
-include_recipe 'letsencrypt::nginx_default_server'
+#include_recipe 'letsencrypt::nginx_default_server'

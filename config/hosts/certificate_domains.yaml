@@ -1,7 +1,7 @@
 default:
-  server_name: sapiens.myddns.net
+  server_name: icd.ejplatform.org
   service_port: 80
 
-rancher:
-  server_name: rancher.sapiens.myddns.me
+backend:
+  server_name: icd.ejplatform.org
   service_port: 8080
