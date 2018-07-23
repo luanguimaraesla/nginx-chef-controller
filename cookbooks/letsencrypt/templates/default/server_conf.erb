@@ -1,15 +1,27 @@
+map $http_upgrade $connection_upgrade {
+    default Upgrade;
+    ''      close;
+}
+
 server {
   listen [::]:443;
   listen 443;
 
   server_name <%= @server_name %>;
 
-  <% if @server_name == 'guardianes.centeias.net' %>
-    client_max_body_size 20m;
-  <% end %>
+  client_max_body_size 20m;
 
   location / {
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-Port $server_port;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_pass http://<%= @server %>;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $connection_upgrade;
+    # This allows the ability for the execute shell window to remain open for up to 15 minutes. Without this parameter, the default is 1 minute and will automatically close.
+    proxy_read_timeout 900s;
   }
 }
 
@@ -30,3 +42,4 @@ server {
 upstream <%= @server %> {
     server <%= @server_ip %>:<%= @service_port %>;
 }
+
