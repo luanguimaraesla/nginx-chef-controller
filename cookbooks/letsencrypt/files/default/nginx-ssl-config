@@ -16,7 +16,7 @@
 server {
   listen 443 ssl;
 
-  server_name centeias.net;
+  server_name ejplatform.com;
 
 # SSL configuration
 #
