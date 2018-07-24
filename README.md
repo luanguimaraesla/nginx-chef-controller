@@ -130,7 +130,7 @@ Caso o teste tenha finalizado com sucesso e os arquivos de configuração esteja
 rake converge:nginx
 ```
 
-Esse comando demorará um pouco para executar. Ele irá instalar e configurar todo o ambiente de _proxy_ reverso com o _NGINX_ + Letsencrypt. Para que seja executado com sucesso, **garanta que todos os serviços _web_ estejam confuigurados e rodando nos IPs e portas especificadas nos arquivos de configuração**.
+Esse comando demorará um pouco para executar. Ele irá instalar e configurar todo o ambiente de _proxy_ reverso com o _NGINX_ + Letsencrypt. Para que seja executado com sucesso, **garanta que todos os serviços _web_ estejam configurados e rodando nos IPs e portas especificadas nos arquivos de configuração**.
 
 #### Login nos servidores
 
